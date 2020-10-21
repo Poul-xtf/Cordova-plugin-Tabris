@@ -10,6 +10,7 @@
         <config-file target="res/xml/config.xml" parent="/*">  
             <feature name="myPlugins">  <!-- JS调用时的前缀名字 -->
                 <param name="android-package" value="org.apache.cordova.my.myPlugins"/> <!-- .java类名全路径 --> 
+                 <param name="onload" value="true" />
             </feature>  
         </config-file>  
         <source-file src="src/android/myPlugins.java" target-dir="src/org/apache/cordova/my" />  
